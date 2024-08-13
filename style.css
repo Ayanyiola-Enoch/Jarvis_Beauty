@@ -26,7 +26,8 @@
 }
 
 .btn button {
-  border: 1px solid rgba(20, 20, 20, 0.322);
+  border: 1px solid white;
+    color: white;
   margin-top: 20px;
   padding: 10px 29px;
   background-color: transparent;
@@ -63,6 +64,27 @@ button:hover {
   font-size: 16.8px;
 }
 
+.jarvis{
+  background-image: linear-gradient(rgba(255, 220, 225, 0.651) 50%, rgba(255, 255, 255, 0.541)),url(/img/skin.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #a52a2ac9;
+  height: 70vh;
+}
+.textj{
+  padding: 180px;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 50px; */
+}
+.textj h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.textj p{
+  width: 200px;
+}
 .section3 {
   height: 63vh;
   background-image: linear-gradient(
@@ -90,6 +112,36 @@ button:hover {
   margin-bottom: 50px;
   font-weight: 700;
 }
+.glow{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.582) ), url(/img/skin2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  /* width: 1000px; */
+}
+.textg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.textg h2{
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+.glow p{
+  text-align: center;
+  line-height: 1.4;
+  width: 520px;
+  color: white;
+}
 
 .products{
     background-color: #a14d4d;
@@ -102,17 +154,18 @@ button:hover {
 }
 .pros{
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 
 .pro1 img{
     width: 239px;
     height: 200px;
-    border: 2px solid black;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 .pro1{
     display: flex;
@@ -134,7 +187,8 @@ button:hover {
     place-content: center;
     /* width: 1100px; */
     place-items: center;
-    gap: 4px;
+    gap: 41px;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
 
 }
 .customers{
@@ -194,6 +248,13 @@ button:hover {
 
   .hero{
     text-align: center;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.37)),
+        url(/img/pexels-olly-3764013.jpg);
+      height: 20rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
   }
   .text {
     display: flex;
@@ -204,31 +265,65 @@ button:hover {
     width: 220px;
   }
 
+  .btn button {
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 29px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+    color: #000000;
+  }
+
   .sectionf {
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     flex-direction: column;
     gap: 10px;
     }
   
     .firstp {
-        padding-top: 10px;
         width: 270px;
+       
+      }
+      .section2 {
+        background-color: #e4d6d6;
+        height: 70vh;
       }
 
-
-      /* .section3 {
+          .section3 {
         height: 63vh;
-        margin-bottom: 19px;
-      } */
-
+        background-image: linear-gradient(
+            to left,
+            #a52a2ac9,
+            rgba(255, 255, 255, 0.315)
+          ),
+          url(/img/im.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
       .organics {
         display: flex;
         /* flex-direction: column; */
         padding: 20px;
         float: right;
         margin-top: 20px;
+      }
+
+      .textg{
+        display: block;
+        align-items: center;
+        /* justify-content: center;
+        flex-direction: column; */
+      }
+      .textg p{
+        width: 350px;
+        padding-left: 10px;
       }
 
       .pros{
@@ -258,10 +353,18 @@ button:hover {
         width: 90%;
     }
     .contact{
-        background-image: linear-gradient(to top, white, rgba(128, 128, 128, 0.24)),url(/img/pexels-olly-3764013.jpg);
+        background-image: linear-gradient(to top, white, rgba(228, 221, 221, 0.493)),url(/img/pexels-olly-3764013.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         height: 60vh;
+        
+    }
+    .add small{
+      text-align: center;
+      width: 200px;
+    }
+    .textj{
+      padding: 100px;
     }
 }
