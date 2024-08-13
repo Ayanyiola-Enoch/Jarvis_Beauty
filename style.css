@@ -7,7 +7,7 @@
 
 .hero {
   background-image:
-    url(img/pexels-olly-3764013.jpg);
+    url(pexels-olly-3764013.jpg);
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +65,7 @@ button:hover {
 }
 
 .jarvis{
-  background-image: linear-gradient(rgba(255, 220, 225, 0.651) 50%, rgba(255, 255, 255, 0.541)),url(img/skin.jpg);
+  background-image: linear-gradient(rgba(255, 220, 225, 0.651) 50%, rgba(255, 255, 255, 0.541)),url(skin.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ button:hover {
       #a52a2ac9,
       rgba(255, 255, 255, 0.315)
     ),
-    url(img/im.jpg);
+    url(im.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -113,7 +113,7 @@ button:hover {
   font-weight: 700;
 }
 .glow{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.582) ), url(img/skin2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.582) ), url(skin2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -215,7 +215,7 @@ button:hover {
 }
 
 .contact{
-    background-image: url(img/pexels-olly-3764013.jpg);
+    background-image: url(pexels-olly-3764013.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -249,7 +249,7 @@ button:hover {
   .hero{
     text-align: center;
       background-image:linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.37)),
-        url(img/pexels-olly-3764013.jpg);
+        url(pexels-olly-3764013.jpg);
       height: 20rem;
       background-repeat: no-repeat;
       background-size: cover;
@@ -302,7 +302,7 @@ button:hover {
             #a52a2ac9,
             rgba(255, 255, 255, 0.315)
           ),
-          url(img/im.jpg);
+          url(im.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -351,7 +351,7 @@ button:hover {
         width: 90%;
     }
     .contact{
-        background-image: linear-gradient(to top, white, rgba(228, 221, 221, 0.493)),url(img/pexels-olly-3764013.jpg);
+        background-image: linear-gradient(to top, white, rgba(228, 221, 221, 0.493)),url(pexels-olly-3764013.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
