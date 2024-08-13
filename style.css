@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+  background-image:
+    url(/img/pexels-olly-3764013.jpg);
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.hero h1 {
+  font-size: 40px;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 58px;
+}
+
+.btn button {
+  border: 1px solid rgba(20, 20, 20, 0.322);
+  margin-top: 20px;
+  padding: 10px 29px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000000;
+}
+
+.section2 {
+  background-color: #e4d6d6;
+  height: 23rem;
+  color: #a14d4d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.first h2 {
+  width: 180px;
+}
+.sectionf {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 10px;
+  padding: 20px;
+  padding-top: 90px;
+}
+
+.firstp {
+  width: 390px;
+  text-align: center;
+  font-size: 16.8px;
+}
+
+.section3 {
+  height: 63vh;
+  background-image: linear-gradient(
+      to left,
+      #a52a2ac9,
+      rgba(255, 255, 255, 0.315)
+    ),
+    url(/img/im.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.organics {
+  display: flex;
+  flex-direction: column;
+  align-items:end;
+  padding: 20px;
+  /* left: 30px; */
+  /* float: right; */
+  justify-content: center;
+}
+.organics p {
+  width: 190px;
+  margin-top: 22px;
+  color: white;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.products{
+    background-color: #a14d4d;
+    padding-bottom: 70px;
+}
+.products h2{
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}
+.pros{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    ;
+}
+
+.pro1 img{
+    width: 239px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.pro1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.textp{
+    width: 200px;
+    font-weight: 700;
+}
+.textp small{
+    font-weight: lighter;
+}
+.allcustom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    place-content: center;
+    /* width: 1100px; */
+    place-items: center;
+    gap: 4px;
+
+}
+.customers{
+    background-color:#e4d6d6;
+    color: #a14d4d;
+    padding-bottom: 90px;
+
+}
+.customers h2{
+    text-align: center;
+    padding: 60px;
+}
+.customer{
+    background-color: white;
+    width: 340px;
+    height: 290px;
+    border: 2px solid pink;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.contact{
+    background-image: url(/img/pexels-olly-3764013.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.info{
+    display: flex;
+    position: relative;
+    right: 40px;
+    float: right;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #a14d4d;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 468px) {
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .hero{
+    text-align: center;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero h1 {
+    width: 220px;
+  }
+
+  .sectionf {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    }
+  
+    .firstp {
+        padding-top: 10px;
+        width: 270px;
+      }
+
+
+      /* .section3 {
+        height: 63vh;
+        margin-bottom: 19px;
+      } */
+
+      .organics {
+        display: flex;
+        /* flex-direction: column; */
+        padding: 20px;
+        float: right;
+        margin-top: 20px;
+      }
+
+      .pros{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        place-items: center;
+        ;
+    }
+    .products h2{
+        display: block;
+        padding-top: 80px;
+    }
+    .pro1{
+        padding-bottom: 35px;
+    }
+    .allcustom{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        place-content: center;
+        gap: 40px;
+        width: 93vw;
+        padding-left: 13px;
+    }
+    .customer{
+        width: 90%;
+    }
+    .contact{
+        background-image: linear-gradient(to top, white, rgba(128, 128, 128, 0.24)),url(/img/pexels-olly-3764013.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+    }
+}
