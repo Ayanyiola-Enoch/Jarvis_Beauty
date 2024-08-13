@@ -329,7 +329,11 @@ button:hover {
         padding: 14px;
         display: block;
         align-items: center;
+<<<<<<< HEAD
         justify-content: center; 
+=======
+        justify-content: center; */
+>>>>>>> 1ec73a196eb00f3d9a37ef45bd346ac2cae5cc70
       }
       .textg p{
         width: 350px;
