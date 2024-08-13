@@ -117,8 +117,8 @@ button:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 70vh;
-  /* width: 1000px; */
+  height: 60vh;
+
 }
 .textg{
   display: flex;
@@ -282,11 +282,15 @@ button:hover {
     color: #000000;
   }
 
+  .jarvis{
+    height: 50vh;
+  }
   .sectionf {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    padding-top: 40px;
     }
   
     .firstp {
@@ -295,7 +299,10 @@ button:hover {
       }
       .section2 {
         background-color: #e4d6d6;
-        height: 70vh;
+        padding-bottom: 10px;
+      }
+      .first h2{
+        text-align: center;
       }
 
           .section3 {
@@ -319,12 +326,18 @@ button:hover {
       }
 
       .textg{
+        padding: 14px;
         display: block;
         align-items: center;
+        justify-content: center; */
       }
       .textg p{
         width: 350px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
+      }
+
+      .glow{
+        height: 50vh;
       }
 
       .pros{
